@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color:black; 
+}
+.centered{
+    text-align: center;
+    margin-top: 30%;
+    position: absolute;
+    font-size: 2rem;
+    letter-spacing: .5px;
+    padding: 24px 0 38px 0;
+    padding-top: 24px;
+    padding-right: 0px;
+    padding-bottom: 38px;
+    padding-left: 0px;
+    font-family: 'Alkalami';
+}
+.centered:hover{
+    color: red;
+
+}
+.t-text {
+    font-family: 'Alkalami';
+    font-weight: 300;
+    color: #000000;
+}
+
+body{
+    background: no-repeat url(Images/Начало.jpg);
+}
