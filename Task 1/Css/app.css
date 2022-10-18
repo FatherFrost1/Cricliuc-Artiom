@@ -1,0 +1,28 @@
+p {
+  color: red;
+}
+
+#special-tag {
+  background-color: blue;
+}
+
+.group{
+  border: dotted;
+  border-color: green;
+}
+
+.top-parent>div {/*Обращаемся через родительский элемент(это класс top-parent) к дочерниму (к тегу div)*/
+  border: dotted;
+  border-width: 4px;
+  color: orange;
+  width: 10em;
+  height: 50px;
+}
+
+.bottom-parent>div {
+  border: dashed;
+  border-width: 2px;
+  color: violet;
+  width: 100px;
+  height: 4rem;
+}
