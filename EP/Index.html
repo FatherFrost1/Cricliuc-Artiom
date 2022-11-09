@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orar USARB</title>
+    <link rel="stylesheet" href="css/Style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="left">
+            <div class="orar">
+                <h3 class="schedule">Orarul Cursurilor</h3>
+            </div>
+
+            <div class="grupe">
+                <button class="active">Grupe</button>
+                <button>Profesori</button>
+                <button>Aule</button>
+            </div>
+
+            <div class="searchsite">
+                <input type="search">
+            </div>
+
+            <div class="lessons">
+                <ul>
+                    <li>MI21Z</li>
+                </ul>
+            </div>
+            <!--селекторы для дней-->
+            <select id="days" class="selec">
+                <option>Ziua</option>
+                <option>Luni</option>
+                <option>Marti</option>
+                <option>Miercuri</option>
+                <option>Joi</option>
+                <option>Vineri</option>
+                <option>Sambata</option>
+                <option>Duminica</option>
+            </select>
+            <!--селекторы для недель-->
+            <select id="weeks" class="selec">
+                <option>Saptamana</option>
+                <option class="initial">1 (29.8.2022 - 4.9.2022)</option>
+                <option class="initial">2 (5.9.2022 - 11.9.2022)</option>
+                <option class="initial">3 (12.9.2022 - 18.9.2022)</option>
+                <option class="initial">4 (19.9.2022 - 25.9.2022)</option>
+                <option class="initial">5 (26.9.2022 - 2.10.2022)</option>
+                <option class="initial">6 (3.10.2022 - 9.10.2022)</option>
+                <option class="initial">7 (10.10.2022 - 16.10.2022)</option>
+                <option class="initial">9 (24.10.2022 - 30.10.2022)</option>
+                <option class="initial">10 (31.10.2022 - 6.11.2022)</option>
+                <option selected="selected" class="initial">11 (7.11.2022 - 13.11.2022)</option>
+                <option class="initial">12 (14.11.2022 - 20.11.2022)</option>
+                <option class="initial">13 (21.11.2022 - 27.11.2022)</option>
+                <option class="initial">14 (28.11.2022 - 4.12.2022)</option>
+                <option class="initial">15 (5.12.2022 - 11.12.2022)</option>
+                <option class="initial">16 (12.12.2022 - 18.12.2022)</option>
+                <option class="initial">17 (19.12.2022 - 25.12.2022)</option>
+            </select>
+            <!--селекторы для Семестра-->
+            <select class="selec">
+                <option>Semestru</option>
+                <option selected="selected">1</option>
+                <option>2</option>
+            </select>
+            <!--Таблица предметов-->
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="green" id="numberday" class="table text"></th>
+                        <th class="green" id="numberday" class="table text">1</th>
+                        <th class="green" id="numberday" class="table text">2</th>
+                        <th class="green" id="numberday" class="table text">3</th>
+                        <th class="green" id="numberday" class="table text">4</th>
+                        <th class="green" id="numberday" class="table text">5</th>
+                        <th class="green" id="numberday" class="table text">6</th>
+                        <th class="green" id="numberday" class="table text">7</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td class="green">L - 7</td>
+                        <td class="green" style="background-color: white"></td>
+                        <td class="green" style="background-color: rgb(118, 189, 73);">S</td>
+                        <td class="green" style="background-color: rgb(118, 189, 73);">S</td> 
+                        <td class="green" style="background-color: rgb(215, 215, 0);">P</td>
+                        <td class="green" style="background-color: rgb(211, 211, 211);">S</td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                    </tr>
+                    <tr>
+                        <td class="green">Ma - 8</td>
+                        <td class="green" style="background-color: white"></td>
+                        <td class="green" style="background-color: rgb(118, 189, 73);">S</td>
+                        <td class="green" style="background-color: rgb(0, 128, 0);">P</td> 
+                        <td class="green" style="background-color: rgb(0, 0, 0);">L</td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                    </tr>
+                    <tr>
+                        <td class="green">Mi - 9</td>
+                        <td class="green" style="background-color: rgb(163, 241, 188);">EP</td>
+                        <td class="green" style="background-color: rgb(163, 241, 188);">L</td> 
+                        <td class="green" style="background-color: rgb(215, 215, 0);">L</td>
+                        <td class="green" style="background-color: rgb(0, 64, 128);">S</td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                    </tr>
+                    <tr>
+                        <td class="green">J - 10</td>
+                        <td class="green" style="background-color: rgb(215, 215, 0);">L</td>
+                        <td class="green" style="background-color: rgb(118, 189, 73);">S</td>
+                        <td class="green" style="background-color: rgb(0, 128, 0);">P</td>
+                        <td class="green" style="background-color: rgb(64, 128, 128);">P</td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                    </tr>
+                    <tr>
+                        <td class="green">V - 11</td>
+                        <td class="green" style="background-color: rgb(220, 215, 163);">P</td>
+                        <td class="green" style="background-color: rgb(168, 84, 0);">P</td>
+                        <td class="green" style="background-color: rgb(215, 215, 0);">P</td>
+                        <td class="green" style="background-color: rgb(215, 215, 0);">L</td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                    </tr>
+                    <tr>
+                        <td class="green">S - 12</td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>  
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                    </tr>
+                    <tr>
+                        <td class="green">D - 13</td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                        <td style="background-color: white"></td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </section>
+
+        <section class="right">
+            <img src="http://orar.usarb.md/img/logo_usarb_new.png" alt="Logo universitatii" width="110px" height="110px">
+            <h4 class="univer">UNIVERSITATEA DE STAT „ALECU RUSSO” DIN BĂLȚI</h4>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            8:00
+                            <br>
+                            9:30
+                        </td>
+                        <td>
+                            9:30
+                            <br>
+                            11:15
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
