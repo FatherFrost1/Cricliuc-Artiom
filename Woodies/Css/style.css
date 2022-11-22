@@ -1,0 +1,121 @@
+body{
+    font-family: 'Nunito';
+}
+
+#logo{
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-left: 2.4em;
+    display: flex;
+}
+
+#logo img{
+    width: 25px;
+    height: 25px;
+    display: flex;
+
+}
+
+#logo figcaption{
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: 0.25em;
+    color: #3E3F43;
+    margin-left: 8px;
+}
+
+nav{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    display: flex;
+    padding-top: 1rem;
+    align-items: center;
+    width: 1000px;
+
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-left: 10rem;
+    display: flex;
+    
+}
+
+nav ul li a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(34, 34, 34, 0.75);
+}
+
+nav ul li.active a{
+    color: rgba(218, 165, 32, 1);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+
+}
+
+nav ul li.button{
+    border: 1px solid rgba(62, 63, 67, 1);
+    border-radius: 8px;
+    padding: 9px 36px;
+    text-transform: uppercase;
+}
+.container{
+    margin-bottom: 4rem;
+    width: 100%;
+    
+}
+.subcontainer{
+    margin-top: -38px;
+    margin-right: -18px;
+}
+header{
+    width: 1100px;
+    margin: 0 auto;
+    flex-direction: row;
+    display: flex;
+    padding: 8em 0;
+
+}
+
+header h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    color: #313235; 
+    margin-top: 5px;   
+}
+
+header button{
+     border: 2px #a8dcec solid;
+     background-color: #a8dcec;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 4px;
+    border: none;
+   
+}
+
+header span{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 49px;
+    color: #3E3F43;
+}
