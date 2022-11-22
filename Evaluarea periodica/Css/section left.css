@@ -1,0 +1,276 @@
+html {
+    background-image: url(Images/new_background_1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+body {
+    min-height: 100vh;
+
+}
+
+.body{
+    box-sizing: content-box;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: nowrap;
+}
+.text-center{
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.header-div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+.section1{
+    box-sizing: border-box;
+    width: 416px;
+    max-width: 100%;
+    padding-left: 30px;
+    margin: 0;
+}
+.sec1-div1{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 0px 0px 15px 15px;
+    background: #f8f8f8;
+    color: #666;
+    width: 288px;
+    height: 28px;
+}
+.text-center1{
+    text-align: center;
+    color: black;
+    font-size: 1.25rem;
+}
+.sec1-div2{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    display: flex;
+    width: 332px;
+    height: 53px;
+}
+#studenMode{
+    margin-top: 15px;
+    height: 38px;
+    background-color: white;
+    color: black;
+}
+.button1{
+    cursor: pointer;
+    background-color: #25975A;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+    margin: 0;
+    border: none;
+    overflow: visible;
+    font: inherit;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    vertical-align: middle;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    transition-property: color;
+    height: 38px;
+}
+#teacherMode{
+    height: 38px;
+}
+.button2{
+    cursor: pointer;
+    background-color: #25975A;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+    margin: 0px;
+    border: none;
+    overflow: visible;
+    font: inherit;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    vertical-align: middle;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0;
+}
+#oficeMode{
+    height: 38px;
+}
+.button3{
+    cursor: pointer;
+    background-color: #25975A;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+    margin: 0px;
+    border: none;
+    overflow: visible;
+    font: inherit;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    vertical-align: middle;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 0;
+}
+.sec1-div3{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    width: 329px;
+    height: 60px;
+}
+.sec1-div3a{
+    font-size: 16px;
+    font-weight: bold;
+    width: 329px;
+    height: 40px;
+}
+#searhInput{
+    padding-left: 40px;
+    height: 40px;
+    padding-right: 6px;
+    background: white;
+    border: 1px solid #e5e5e5;
+    margin: 0;
+    border-radius: 0;
+    overflow: visible;
+    vertical-align: middle;
+    color: #666;
+    width: 280px;
+}
+
+.sec1-div4{
+    height: 100px;
+    max-height: 100px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    width: 329px;
+    max-width: 330px;
+}
+
+#dayselect{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    height: 40px;
+    vertical-align: middle;
+    display: block;
+    margin-top: 20px;
+    max-width: 100%;
+    width: 329px;
+    padding: 0 10px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+}
+
+#weekselect{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    height: 40px;
+    vertical-align: middle;
+    margin-top: 20px;
+    max-width: 100%;
+    width: 329px;
+    padding: 0 10px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    display: block;
+}
+
+#semesterselect{
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    height: 40px;
+    vertical-align: middle;
+    margin-top: 20px;
+    max-width: 100%;
+    width: 329px;
+    padding: 0 10px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    display: block;
+}
+.tabel{
+    width: 329px;
+}
+.color-table1{
+    vertical-align: bottom;
+    font-size: .875rem;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    width: 220px;
+    background-color: #25975A;
+}
+.color-tabel2{
+    height: 25px;
+    box-sizing: border-box;
+    width: 50px;
+    max-width: 100%;
+    color: white;
+    vertical-align: bottom;
+    font-size: .875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid white;
+    width: 120px;
+    background-color: #25975A;
+}
+.color-tabel3{
+    height: 25px;
+    box-sizing: border-box;
+    width: 50px;
+    max-width: 100%;
+    color: white;
+    vertical-align: bottom;
+    font-size: .875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 1px solid white;
+    width: 120px;
+    background-color: white;
+}

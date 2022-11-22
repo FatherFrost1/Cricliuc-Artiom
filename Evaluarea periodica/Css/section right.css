@@ -1,0 +1,38 @@
+.section2{
+    margin-top: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 30px;
+    margin: 0;
+    display: block;
+    width: 60%;
+    align-items: center;
+}
+.table2{
+    width: 460px;
+    height: 420px;
+    margin: 0;
+}
+.tabel2tr{
+    width: 50px;
+    height: 60px;
+    margin: 0;
+}
+.tabel2td{
+    border: 1px solid white;
+    background-color: #25975A;
+    color: white;
+    height: 57px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    vertical-align: middle !important;
+    width: 65px;
+}
+.text-img{
+    align-items: center;
+}
+.info{
+    background-color: white;
+    text-align: center;
+}

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/section left.css">
+    <link rel="stylesheet" href="Css/section right.css">
+
+
+</head>
+<body class="body">
+    <div class="header-div" id="app">
+       
+        <section class="section1">
+            <div class="sec1-div1">
+                <h4 class="text-center1">Orarul Cursurilor</h4>
+            </div>
+            <div class="sec1-div2">
+                <button id="studentMode" class="button1">Grupe</button>
+                <button id="teacherMode" class="button2">Profesori</button >
+                <button id="oficeMode" class="button3">Aule</button>
+            </div>
+            <div class="sec1-div3">
+                <div class="sec1-div3a">
+                    <input id="searhInput">
+                </div>
+            </div>
+            <div class ="sec1-div4">
+            </div>
+            <select id="dayselect">
+                <option>Ziua</option>
+                <option >Luni</option>
+                <option >Marți</option>
+                <option >Miercuri</option>
+                <option >Joi</option>
+                <option >Vineri</option>
+                <option >Sîmbătă</option>
+                <option >Duminică</option>
+            </select>
+            <select id="weekselect">
+                <option>Săptămîna</option>
+                <option >1 (29.8.2022 - 4.9.2022)</option>
+                <option >2 (5.9.2022 - 11.9.2022)</option>
+                <option >3 (12.9.2022 - 18.9.2022)</option>
+                <option >4 (19.9.2022 - 25.9.2022)</option>
+                <option >5 (26.9.2022 - 2.10.2022)</option>
+                <option >6 (3.10.2022 - 9.10.2022)</option>
+                <option >7 (10.10.2022 - 16.10.2022)</option>
+                <option >9 (24.10.2022 - 30.10.2022)</option>
+                <option >10 (31.10.2022 - 6.11.2022)</option>
+                <option selected="selected" >11 (7.11.2022 - 13.11.2022)</option>
+                <option >12 (14.11.2022 - 20.11.2022)</option>
+                <option >13 (21.11.2022 - 27.11.2022)</option>
+                <option >14 (28.11.2022 - 4.12.2022)</option>
+                <option >15 (5.12.2022 - 11.12.2022)</option>
+                <option >16 (12.12.2022 - 18.12.2022)</option>
+                <option >17 (19.12.2022 - 25.12.2022)</option>
+            </select>
+            <select id="semesterselect">
+                <option value="-1">Semestrul</option>
+                <option value="0">1</option>
+                <option value="1">2</option>
+            </select>
+            <table class="tabel">
+                <thead>
+                    <tr >
+                        <th class="color-table1"></th>
+                        <th class="color-tabel2">1</th>
+                        <th class="color-tabel2">2</th>
+                        <th class="color-tabel2">3</th>
+                        <th class="color-tabel2">4</th>
+                        <th class="color-tabel2">5</th>
+                        <th class="color-tabel2">6</th>
+                        <th class="color-tabel2">7</th>
+                    </tr>
+                </thead>
+                <tbody >
+                    <tr >
+                        <th class="color-table1">L - 7</th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3" style="background-color: rgb(118, 189, 73);">S</td>
+                        <th class="color-tabel3" style="background-color: rgb(118, 189, 73);">S</td>
+                        <th class="color-tabel3" style="background-color: rgb(215, 215, 0);">P</td>
+                        <th class="color-tabel3" style="background-color: rgb(211, 211, 211);">S</td>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                    </tr>
+                    <tr >
+                        <th class="color-table1">Ma - 8</th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3" style="background-color: rgb(118, 189, 73);">S</td>
+                        <th class="color-tabel3" style="background-color: rgb(0, 128, 0);">P</td>
+                        <th class="color-tabel3" style="background-color: rgb(0, 0, 0);">L</td>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                    </tr>
+                    <tr >
+                        <th class="color-table1">Mi - 9</th>
+                        <th class="color-tabel3" style="background-color: rgb(163, 241, 188);">EP</th>
+                        <th class="color-tabel3" style="background-color: rgb(163, 241, 188);">L</td>
+                        <th class="color-tabel3" style="background-color: rgb(215, 215, 0);">L</th>
+                        <th class="color-tabel3" style="background-color: rgb(0, 64, 128);">S</td>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                    </tr>
+                    <tr >
+                        <th class="color-table1">J - 10</th>
+                        <th class="color-tabel3" style="background-color: rgb(215, 215, 0);">L</td>
+                        <th class="color-tabel3" style="background-color: rgb(118, 189, 73);">S</td>
+                        <th class="color-tabel3" style="background-color: rgb(0, 128, 0);">P</td>
+                        <th class="color-tabel3" style="background-color: rgb(64, 128, 128);">P</td>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                    </tr>
+                    <tr >
+                        <th class="color-table1">V - 11</th>
+                        <th class="color-tabel3" style="background-color: rgb(220, 215, 163);">P</td>
+                        <th class="color-tabel3" style="background-color: rgb(168, 84, 0);">P</td>
+                        <th class="color-tabel3" style="background-color: rgb(215, 215, 0);">P</td>
+                        <th class="color-tabel3" style="background-color: rgb(215, 215, 0);">L</td>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                    </tr>
+                    <tr >
+                        <th class="color-table1">S - 12</th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                    </tr>
+                    <tr >
+                        <th class="color-table1">D - 13</th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                        <th class="color-tabel3"></th>
+                    </tr>
+                </tbody>
+            </table>
+            <div id="tableLegend" class="uk-flex">
+                <p class="text-white">P - Prelegere</p>
+                <p class="text-white">S - Seminar</p>
+                <p class="text-white">L - Laborator</p>
+                <p class="text-white">PC - Proiect de Curs</p>
+                <p class="text-white">EP - Evaluare periodică</p>
+                <p class="text-white">C - Consultație</p>
+                <p class="text-white">E - Examinare</p>
+                <p class="text-white">R - Reexaminare</p>
+            </div>
+        </section>
+        <section class="section2">
+            <div class="img-text">
+            <img src="Css/Images/logo_usarb_new.png" alt="Logo universitatii" width="130px" height="130px" id="headerLogo">
+            <h4 id="headerText" class="text-center">UNIVERSITATEA DE STAT „ALECU RUSSO” DIN BĂLȚI</h4>
+            </div>
+            <table class ="table2">
+                <tbody>
+                    <tr class="tabel2tr">
+                        <td class="tabel2td"> 8:00 <br> 9:30</td>
+                        <td class="info">Programare web</td>
+                    </tr>
+                    <tr class="tabel2tr">
+                        <td class="tabel2td"> 9:45 <br> 11:15</td>
+                        <td class="info">Teoria numerelor</td>
+                    </tr>
+                    <tr class="tabel2tr">
+                        <td class="tabel2td"> 11:30 <br> 13:00</td>
+                        <td class="info">Trigonometria</td>
+                    </tr>
+                    <tr class="tabel2tr">
+                        <td class="tabel2td"> 13:15 <br> 14:45</td>
+                        <td class="info">Filozofia</td>
+                    </tr>
+                    <tr class="tabel2tr">
+                        <td class="tabel2td"> 15:00 <br> 16:30</td>
+                        <td class="info"></td>
+                    </tr>
+                    <tr class="tabel2tr">
+                        <td class="tabel2td"> 16:45 <br> 18:15</td>
+                        <td class="info"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+    
+</body>
+</html>
