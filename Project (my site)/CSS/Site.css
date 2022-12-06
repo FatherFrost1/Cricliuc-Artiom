@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/*Свойства для главной страницы сайта*/
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+  url(Images/London.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.navbar ul li::after {
+  content: ' ';
+  height: 4px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.first-text {
+  line-height: 1.2;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  /*padding-top: 8px;
+  padding-bottom: 6px;
+  /*position: relative*/
+}
+
+.first-text ul li {
+  font-family: 'Playfair Display', serif;
+  color: #914040;
+}
+
+.text-location {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 100%;*/
+}
+
+.position {
+  padding-left: 200px;
+  max-width: 760px;
+  /*display: inline;*/
+  /*float: left;*/
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.begin {
+  font-size: 20px;
+  line-height: 1.55;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 300;
+  color: #000000;
+}
+
+.fragment_name {
+  padding-top: 4px;
+  padding-bottom: 14px;
+  font-size: 26px;
+  line-height: 1.17;
+  font-family: 'Roboto',Arial,sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+
+/*Свойства для перелистывания картинок*/
+
+.section-g {
+  height: 600px;
+  position: relative;
+}
+
+.slider {
+  width: 1000px;
+  height: 500px;
+  overflow: hidden;
+  border: 10px solid #000;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navigation {
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar {
+  height: 8px;
+  width: 30px;
+  margin: 6px;
+  cursor: pointer;
+  background-color: #ddd;
+  opacity: .7;
+  border-radius: 10px;
+  transition: all .4s ease;
+}
+.bar:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+  width: 400%;
+  height: 100%;
+  display: flex;
+}
+
+.slide {
+  width: 25%;
+  transition: all .6s ease;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+    margin-left: -25%;
+}
+
+#r3:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+#r4:checked ~ .s1 {
+    margin-left: -75%;
+}
+
+/*Стили для футера сайта*/
+body {
+  background: #fcfcfc;
+}
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /*расставляет элементы в ряд или в колонку*/
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  /*text-transform: capitalize;*/
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px;
+  line-height: 28px;
+  font-size: 16px;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color:  #fff;
+}
+.socials a i{
+  font-size: 1.1rem;
+  transition: color .4s ease; /*позволяет управлять плавным переходом между двумя состояниями элемента*/
+
+}
+.socials a:hover i{
+  color: #008cf0;
+}
+
+.footer-bottom {
+  background: #000;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
